@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://revampkey.com/docs
+    about: Check our documentation for guides and tutorials
+  - name: Community Support
+    url: https://revampkey.com/community
+    about: Ask questions and connect with other RevampKey users
