@@ -6,7 +6,7 @@ RevampKey is based on Visual Studio Code (Code - OSS), which is licensed under t
 
 **The RevampKey modifications and proprietary features are:**
 ```
-Copyright (c) 2024 - present Rev AI Pvt Ltd
+Copyright (c) 2025 - present Rev AI Pvt Ltd
 All rights reserved.
 ```
 
@@ -63,4 +63,4 @@ By downloading and using RevampKey, you agree to:
 
 ---
 
-For questions about licensing, contact: legal@revampkey.com
+For questions about licensing, contact: hello@revampkey.com
