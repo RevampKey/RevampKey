@@ -3,8 +3,8 @@
 **AI-Powered Code Refactoring Editor**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE.md)
-[![Downloads](https://img.shields.io/github/downloads/revampai/revampkey/total)](https://github.com/revampai/revampkey/releases)
-[![Latest Release](https://img.shields.io/github/v/release/revampai/revampkey)](https://github.com/revampai/revampkey/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/RevampKey/revampkey/total)](https://github.com/RevampKey/revampkey/releases)
+[![Latest Release](https://img.shields.io/github/v/release/RevampKey/revampkey)](https://github.com/RevampKey/revampkey/releases/latest)
 
 ## About
 
