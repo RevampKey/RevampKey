@@ -7,6 +7,76 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+
+## [0.2.1-beta] - 2026-03-26
+
+### Added
+- RevampKey Runtime evolution summary integrated into the product changelog to improve transparency around core engine maturity.
+- Runtime capabilities added since `revampkey-runtime-v0.1.3` include:
+  - Turn-based conversation summarization and improved tool result management.
+  - File memory management/status tracking and stronger context-handling workflows.
+  - Safety checks and cleanup for orphaned/incomplete tool results before API submission.
+  - RevampKey Model Info API integration with local caching, diagnostics, and environment metadata merge support.
+  - Multi-conversation plan architecture with shared tracker/spec resources and restoration/self-healing flows.
+  - Context-management, error-recovery, and design-document prompt systems for more resilient operation.
+  - Prompt compression analysis/utilities and repo map regeneration documentation.
+
+### Changed
+- Updated integrated runtime from `revampkey-runtime-v0.1.3` to `revampkey-runtime-v0.1.17`.
+- Runtime and engine-level improvements delivered across `v0.1.4` to `v0.1.17`:
+  - Prompt, cache, and context optimization to reduce token usage and improve responsiveness.
+  - Improved model/provider handling, metadata processing, and API settings behavior.
+  - Repo map generation, timeout behavior, and cache handling refinements.
+  - Dependency and compatibility updates (including tree-sitter/litellm-related updates).
+  - Logging, storage, and conversation lifecycle refinements for better reliability and traceability.
+
+### Fixed
+- Core runtime fixes delivered across the upgraded range include:
+  - Removal/cleanup of orphaned and incomplete tool-result sequences to prevent malformed message flows.
+  - Cache-key and cache-control reliability issues affecting consistency/performance.
+  - Model/provider routing and metadata edge cases.
+  - Repo map and signature-related reliability issues.
+  - Tracker patch update behavior improvements to preserve existing task/module titles during partial updates.
+
+### Removed
+- Runtime cleanup and maintenance in the upgraded range removed obsolete/unused references and outdated documentation where applicable to keep the engine lean and maintainable.
+
+### Security
+- Continued local-first and privacy-focused operation with telemetry/analytics disabled by default.
+
+### Runtime Stability Note
+- **RevampKey Runtime is the main engine behind RevampKey.**
+- This release includes cumulative runtime hardening from `v0.1.4` through `v0.1.17`, with focused work on resiliency, context integrity, cache stability, and tracker correctness.
+
+## [0.2.0-beta] - 2025-01-20
+
+### Added
+- Initial beta release of RevampKey
+- AI-powered code refactoring capabilities
+- Modern code editor based on Visual Studio Code (v1.108.0)
+- Open VSX extension marketplace integration
+- Privacy-first architecture - all processing on local machine
+- Cross-platform support (Windows (Coming Soon), macOS, Linux)
+- Automatic update system with GitHub releases integration
+- Custom branding and user interface
+- RevampAI auxiliary bar with enhanced UI/UX
+- Linux package support: `.deb`, `.rpm`, `.tar.gz`
+- macOS: Universal binary (Intel + Apple Silicon)
+- Support for x64, ARM64, and ARMv7 architectures
+
+### Changed
+- Updated to VSCode upstream version 1.108.0
+- Enhanced webview activation logic for RevampAI
+- Improved build configuration for all platforms
+- Updated license and copyright information
+- Privacy-focused documentation and URLs
+
+### Security
+- Disabled telemetry by default
+- Removed analytics and tracking
+- Local-first data processing
+
+
 ## [0.1.0-beta] - 2025-01-19
 
 ### Added
