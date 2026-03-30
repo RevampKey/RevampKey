@@ -15,7 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Expanded release quality coverage with new automated checks around complex chat/stream flows.
 
 ### Changed
-- Updated the integrated RevampKey Runtime to `v0.1.19`, bringing broad quality and reliability improvements to day-to-day AI-assisted workflows.
+- Updated the integrated RevampKey Runtime to `v0.1.20`, bringing broad quality and reliability improvements to day-to-day AI-assisted workflows.
 - Refined chat readability by replacing aggressive message truncation with better word wrapping in question cards.
 - Improved release packaging flow to make distribution output more consistent across builds.
 
