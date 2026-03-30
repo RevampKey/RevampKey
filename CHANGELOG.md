@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
-## [0.2.2-beta] - 2026-03-30
+## [v0.2.2-beta] - 2026-03-30
 
 ### Added
 - Introduced a smoother checkpoint revert experience in RevampAI so users can confidently roll conversations back and continue from a cleaner state.
@@ -131,7 +131,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## Version History
 
 ### Beta Releases
-- **0.2.2-beta** (2026-03-30) - Streaming/checkpoint stability and runtime upgrade release.
+- **v0.2.2-beta** (2026-03-30) - Streaming/checkpoint stability and runtime upgrade release.
 - **0.2.1-beta** (2026-03-26) - Runtime maturity and reliability expansion release.
 - **0.2.0-beta** (2025-01-20) - Initial feature-complete beta milestone.
 - **0.1.0-beta** (2025-01-19) - Initial public beta release.

@@ -1,3 +1,4 @@
 # No source code - documentation only repo
 *.log
 .DS_Store
+.revampkey*

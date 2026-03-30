@@ -20,7 +20,7 @@ RevampKey is an AI-powered code editor that combines the simplicity of a modern 
 
 ## Download
 
-Download the current beta release [`0.2.2-beta`](https://github.com/revampai/revampkey/releases/tag/0.2.2-beta), or get the latest build from our [Releases](https://github.com/revampai/revampkey/releases/latest) page.
+Download the current beta release [`v0.2.2-beta`](https://github.com/revampai/revampkey/releases/tag/v0.2.2-beta), or get the latest build from our [Releases](https://github.com/revampai/revampkey/releases/latest) page.
 
 ### Supported Platforms
 
