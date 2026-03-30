@@ -8,6 +8,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## [0.2.2-beta] - 2026-03-30
+
+### Added
+- Introduced a smoother checkpoint revert experience in RevampAI so users can confidently roll conversations back and continue from a cleaner state.
+- Expanded release quality coverage with new automated checks around complex chat/stream flows.
+
+### Changed
+- Updated the integrated RevampKey Runtime to `v0.1.19`, bringing broad quality and reliability improvements to day-to-day AI-assisted workflows.
+- Refined chat readability by replacing aggressive message truncation with better word wrapping in question cards.
+- Improved release packaging flow to make distribution output more consistent across builds.
+
+### Fixed
+- Improved streaming and checkpoint handling stability in RevampAI to reduce interrupted responses during longer interactions.
+- Resolved edge-case save/order issues around checkpoint operations for more predictable conversation state.
+
+### Removed
+- 
+
+---
+
 ## [0.2.1-beta] - 2026-03-26
 
 ### Added
@@ -111,7 +131,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## Version History
 
 ### Beta Releases
-- **0.1.0-beta** (2025-01-19) - Initial public beta release
+- **0.2.2-beta** (2026-03-30) - Streaming/checkpoint stability and runtime upgrade release.
+- **0.2.1-beta** (2026-03-26) - Runtime maturity and reliability expansion release.
+- **0.2.0-beta** (2025-01-20) - Initial feature-complete beta milestone.
+- **0.1.0-beta** (2025-01-19) - Initial public beta release.
 
 ---
 
