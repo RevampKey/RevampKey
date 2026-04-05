@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
-## [0.2.3-beta] - 2026-04-06
+## [v0.2.3-beta] - 2026-04-06
 
 ### Added
 - Expanded observability in the integrated RevampKey Runtime with analytics sampling controls, richer message/repo telemetry, and version-aware request metadata.
