@@ -8,6 +8,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## [0.2.3-beta] - 2026-04-06
+
+### Added
+- Expanded observability in the integrated RevampKey Runtime with analytics sampling controls, richer message/repo telemetry, and version-aware request metadata.
+- Added public observability documentation coverage for Loki logging and PostHog event flow to improve operational clarity.
+
+### Changed
+- Updated integrated runtime from `revampkey-runtime-v0.1.19` to `revampkey-runtime-v0.1.23`.
+- Improved runtime traceability and analytics identity handling with stronger user/context propagation and extension/runtime build metadata alignment.
+- Advanced bridge-level and model-request observability context so diagnostics are more actionable across extension and runtime boundaries.
+
+### Fixed
+- Applied cumulative runtime fixes from `v0.1.20` to `v0.1.23`, including cross-platform compatibility hardening and repo-map crash prevention for empty graph scenarios.
+
+### Security
+- Continued local-first and privacy-focused defaults with telemetry/analytics disabled by default unless explicitly configured.
+
+### Runtime Stability Note
+- **RevampKey Runtime is the main engine behind RevampKey.**
+- This release carries cumulative runtime hardening and observability maturation through `v0.1.20` to `v0.1.23`, improving reliability, debuggability, and release confidence.
+
 ## [v0.2.2-beta] - 2026-03-30
 
 ### Added
