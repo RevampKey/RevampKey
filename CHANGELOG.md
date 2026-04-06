@@ -7,6 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.0-beta] - 2026-04-07
+
+### Added
+- **RevampKey Dark theme** — A new built-in dark theme with a refined charcoal palette is now included and set as the default dark theme. No extra installation needed; it applies automatically on first launch.
+- **Open Folder shortcut in sidebar** — When RevampKey is launched without a workspace, the sidebar now shows a direct "Open Folder" button so you can get started without hunting through the menus.
+
+### Changed
+- **Faster sign-in experience** — The login screen now appears instantly on first install or after signing out, instead of sitting through a loading animation before being redirected.
+- **AI model display auto-syncs** — The selected AI model name in the toolbar now correctly reflects your account's available models right away, without requiring a manual re-selection after sign-in.
+- **Cleaner editor UI** — Removed third-party AI assistant icons and suggestions from the title bar, command center, status bar, and Help menu to keep the interface focused and uncluttered.
+- **Smoother extension installs** — Extension installation no longer shows signature verification dialogs, resulting in a faster and less noisy install flow.
+
+### Fixed
+- **Sign-in retry now works correctly** — Dismissing the browser sign-in window and clicking "Sign In" again now reliably reopens the browser. Previously, cancelling could leave the login flow in a stuck state.
+- **Cold start "Open a folder" prompt** — Fixed an issue where launching RevampKey with no workspace open would show "Initializing Revamp AI…" indefinitely instead of the expected "Open a folder to get started" prompt.
+
 
 ## [v0.2.3-beta] - 2026-04-06
 
