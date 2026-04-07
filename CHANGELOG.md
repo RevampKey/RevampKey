@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.1-beta] - 2026-04-07
+
+### Fixed
+- **RevampAI sidebar now loads every time** — Fixed an issue where the RevampAI panel would show a blank screen or fail silently on roughly 2 out of 3 cold starts. It now loads correctly and consistently on every launch.
+- **Model picker remembers your selection** — The AI model dropdown was occasionally resetting to the first available model (about 2 in 10 reloads) instead of showing the one you last selected. Your choice is now preserved reliably across sessions.
+
 ## [0.3.0-beta] - 2026-04-07
 
 ### Added
@@ -168,6 +174,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## Version History
 
 ### Beta Releases
+- **0.3.1-beta** (2026-04-07) - Startup reliability and model picker fix release.
+- **0.3.0-beta** (2026-04-07) - Dark theme, UI polish, and stability improvements.
 - **v0.2.2-beta** (2026-03-30) - Streaming/checkpoint stability and runtime upgrade release.
 - **0.2.1-beta** (2026-03-26) - Runtime maturity and reliability expansion release.
 - **0.2.0-beta** (2025-01-20) - Initial feature-complete beta milestone.
