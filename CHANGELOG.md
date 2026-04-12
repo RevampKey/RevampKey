@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.2-beta] - 2026-04-13
+
+### Changed
+- **Search is now more reliable when looking through code** — Improved fallback behavior reduces missed matches when an initial lookup path fails, so search results are more dependable during everyday work.
+- **Search feels faster and more consistent** — File discovery and lookup-heavy workflows now return results with better responsiveness and steadier behavior.
+
+### Fixed
+- **Tool status is now shown correctly after recovery** — Fixed an issue where search-and-replace status details could appear incorrect after automatic recovery.
+
 ## [0.3.1-beta] - 2026-04-07
 
 ### Fixed
