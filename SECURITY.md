@@ -8,7 +8,7 @@ We take the security of RevampKey seriously. If you have discovered a security v
 
 Instead, please report them via email to:
 
-**security@revampkey.com**
+**hello@revampkey.com**
 
 ### What to Include
 
