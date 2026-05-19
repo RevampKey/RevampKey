@@ -7,6 +7,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.0] - 2026-05-19
+
+### Added
+- **Improved planning workflow visibility** — You can now follow active planning work in a dedicated sidebar while continuing the conversation.
+- **More flexible chat layout** — The chat and planning areas now support a responsive two-panel experience for better use of screen space.
+- **Built-in codebase context controls** — New settings make it easier to tune how codebase context is generated for AI responses.
+
+### Changed
+- **Settings are easier to understand** — Labels and descriptions were rewritten in plain language with a clearer configuration flow.
+- **Large pasted content is easier to manage** — Big snippets now collapse into lightweight reference items so the composer stays readable.
+- **Conversation and plan state restores more reliably** — Returning to RevampAI after hiding or showing the panel better preserves where you left off.
+- **Release handoff is more reliable** — Finished planning work now leaves clearer save points, so completed progress is easier to keep and review.
+- **Tool-heavy workflows are more dependable** — Subagent-driven work now keeps its steps in better order, making longer execution chains feel steadier.
+- **Release checks are stricter** — Extra guardrails help catch out-of-date release states before publishing, reducing avoidable release mistakes.
+
+### Fixed
+- **Draft text is more reliable** — Fixed cases where in-progress draft content could be lost during UI transitions.
+- **Planning controls appear correctly in narrow layouts** — Fixed visibility issues so tracker controls show as expected in compact panel sizes.
+- **Runtime and packaging behavior is more stable** — Updated core integration and build flow for a smoother release experience.
+
 ## [0.4.0-beta] - 2026-04-24
 
 ### Added
