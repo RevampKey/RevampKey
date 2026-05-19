@@ -20,7 +20,7 @@ RevampKey is an AI-powered code editor that combines the simplicity of a modern 
 
 ## Download
 
-Download the current beta release [`v0.2.2-beta`](https://github.com/revampai/revampkey/releases/tag/v0.2.2-beta), or get the latest build from our [Releases](https://github.com/revampai/revampkey/releases/latest) page.
+Download our latest build from our [Releases](https://github.com/revampkey/revampkey/releases/latest) page.
 
 ### Supported Platforms
 
@@ -85,7 +85,7 @@ For detailed documentation and guides, visit [revampkey.com](https://revampkey.c
 
 ## Support
 
-- **Report Issues**: [GitHub Issues](https://github.com/revampai/revampkey/issues)
+- **Report Issues**: [GitHub Issues](https://github.com/revampkey/revampkey/issues)
 - **Website**: [revampkey.com](https://revampkey.com)
 
 ## License
@@ -108,4 +108,4 @@ RevampKey respects your privacy. Your code and data remain on your local machine
 
 ## Acknowledgments
 
-RevampKey is built on top of [Visual Studio Code - Open Source](https://github.com/microsoft/vscode). We are grateful to Microsoft and the VS Code community for their excellent work on the foundation that makes RevampKey possible.
+RevampKey is built on top of [Visual Studio Code - Open Source](https://github.com/microsoft/vscode), and we are grateful to Microsoft, the VS Code community, and [aider](https://github.com/Aider-AI/aider), an open-source AI pair programming project, for their excellent work and contributions.
