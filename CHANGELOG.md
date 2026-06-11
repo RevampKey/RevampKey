@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-06-11
+
+### Changed
+- **Configurable child tool visibility** — Child tools can now be shown or hidden with a configuration option.
+- **More consistent chat UI and reply handling** — Chat presentation and reply behavior have been tightened up for a steadier experience.
+
+### Fixed
+- **Reply routing is more reliable** — Replies now route to the intended thread more consistently.
+- **Message ordering is more stable** — Chat messages now appear in a steadier, more predictable order.
+- **External markdown links open correctly** — Links in markdown content now open as expected.
+- **Sidebar streaming autoscroll is smoother** — Streaming updates in the sidebar now keep the view following along more naturally.
+- **Narrow chat layouts avoid overflow** — Fixed overflow issues in compact chat layouts.
+
 ## [1.0.0] - 2026-05-19
 
 ### Added
