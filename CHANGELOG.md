@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-06-11
+
+### Added
+- **Subagents are more aware of your machine and repository context** — Runtime-backed workflows now receive clearer platform details and git identity information during tool-driven tasks.
+
+### Changed
+- **Tool-heavy AI workflows are more environment-aware** — Runtime context now carries stronger platform and repository details, helping multi-step automation stay aligned with your active setup.
+
+### Fixed
+- **Reflected replies land more reliably in the intended conversation** — Follow-up responses after reflection now route more consistently.
+- **Runtime-backed replies respect your language more consistently** — AI responses now adhere more reliably to the language you used.
+- **Requests for extra information are better timed** — The assistant is clearer about when it genuinely needs more input before continuing.
+
 ## [1.0.1] - 2026-06-11
 
 ### Changed
