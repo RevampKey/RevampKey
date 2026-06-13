@@ -7,6 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.1] - 2026-06-13
+
+### Added
+- **Live request timing while AI is working** — The status area now shows elapsed time during each response, so long-running requests are easier to track.
+- **Current subagent tool activity in collapsed view** — Even with a subagent card collapsed, you can now see which tool is actively running.
+
+### Changed
+- **Stopped prompts return to the input box** — If you interrupt a request, your prompt is restored so you can quickly edit and retry.
+- **Diff output is clearer in narrow sidebars** — Multi-file and multi-hunk tool changes are grouped and rendered more cleanly in compact layouts.
+- **Tool labels are more consistent across chat cards** — Tool actions now use clearer, unified naming throughout the chat UI.
+
+### Fixed
+- **Processing state and stop controls stay aligned** — Status indicators now track active processing more reliably while requests are running.
+- **Mixed markdown and HTML responses render more reliably** — Structured responses now display correctly without breaking surrounding layout.
+- **Compact chat layouts avoid overflow more consistently** — Long content now stays contained in narrow panels.
+
 ## [1.1.0] - 2026-06-11
 
 ### Added
