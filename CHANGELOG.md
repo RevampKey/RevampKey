@@ -7,6 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.2] - 2026-06-15
+
+### Added
+- **New MCP connectors for Filesystem and PostgreSQL** — You can now connect to these services directly from RevampKey.
+- **More reliable local connector startup** — Local connections now show clearer progress and stay responsive while they launch.
+- **New browser, search, and productivity connectors** — Browser automation, web search, and additional workspace connectors are now available in the assistant.
+
+### Changed
+- **Connector setup and sign-in flows are more consistent** — Several integration flows now complete with clearer handoff and more dependable account linking.
+- **Connector status is easier to follow** — The assistant now shows clearer activity and success feedback while connections are running.
+
+### Fixed
+- **Interrupted or pending connection flows recover more reliably** — Stopped or delayed actions now leave the assistant in a better state for retrying.
+- **Tool and response rendering is more stable** — Chat output now stays readable more consistently in compact layouts and mixed-content responses.
+- **OAuth and connector handoff issues are more reliable** — A number of connection and authorization flows now complete more consistently.
+
 ## [1.1.1] - 2026-06-13
 
 ### Added
