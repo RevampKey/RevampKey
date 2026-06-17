@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.1] - 2026-06-17
+
+### Changed
+- **Figma help links open more smoothly during MCP setup** — RevampKey now recognizes Figma's help center as a trusted destination during protected link flows.
+
+### Fixed
+- **Always Allow now actually sticks for approval prompts** — Choosing Always Allow or Don't ask again now prevents repeated approval interruptions for the same action flow.
+- **Model defaults stay in sync more reliably** — Model selection and fallback behavior now update more consistently instead of drifting back to stale defaults.
+
 ## [1.2.0] - 2026-06-17
 
 ### Added
