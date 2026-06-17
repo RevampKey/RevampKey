@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.0] - 2026-06-17
+
+### Added
+- **Custom MCP server secrets are easier to configure** — You can now define secret environment variables for your own MCP servers and start from clearer setup examples.
+
+### Changed
+- **Figma connections work with more setups** — Design workflows now support Framelink-based MCP configurations more smoothly across platforms.
+- **Slash-triggered command handling is more predictable** — Typing a slash now behaves like normal prompt input unless you actually intend to use a command.
+
+### Fixed
+- **Separate AI conversations no longer mix their state** — Planning activity, processing state, restored prompts, and interactive cards now stay with the conversation where they belong.
+- **Reply threading is more stable during AI updates** — Assistant messages now preserve the correct IDs and stay attached more reliably during streaming and follow-up actions.
+
 ## [1.1.2] - 2026-06-15
 
 ### Added
