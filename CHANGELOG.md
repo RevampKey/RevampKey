@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.2] - 2026-06-19
+
+### Changed
+- **Chat prompts now start with clearer guidance** — The main prompt box now uses more helpful starter copy, making it easier to describe what you want RevampKey to do.
+- **Tool approval cards are easier to understand** — Confirmation prompts now hide raw CLI plumbing and show cleaner action wording instead.
+
 ## [1.2.1] - 2026-06-17
 
 ### Changed
