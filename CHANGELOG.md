@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.3.0] - 2026-06-19
+
+### Added
+- **Required updates can now block outdated app versions** — When your installed build is no longer supported, RevampKey now shows a dedicated update prompt and guides you to install a newer version before continuing.
+
+### Fixed
+- **Required update notices now show the right minimum version** — Update prompts now display the supported version details correctly instead of leaving them blank.
+- **Version checks now identify your installed RevampKey build more reliably** — Compatibility checks now use the app's actual release version consistently, so supported builds are recognized more accurately.
+
 ## [1.2.2] - 2026-06-19
 
 ### Changed
