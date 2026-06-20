@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.3.1] - 2026-06-20
+
+### Changed
+- **Strengthened protection of RevampKey's underlying AI engine** — Hardened the app's internals to make them harder to extract or tamper with, with no change to how you use RevampKey.
+
 ## [1.3.0] - 2026-06-19
 
 ### Added
