@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.4.0] - 2026-06-23
+
+### Changed
+- **RevampAI now starts in Auto model mode by default for new installs** — New users start with backend-managed model selection automatically, while manual mode remains available whenever you want to take control.
+- **Model controls are simpler and more compact** — The chat toolbar now includes a compact Auto/Manual switch, and settings focus on the primary model instead of exposing internal weak/architect selectors.
+
+### Fixed
+- **Auto/manual model selection now persists reliably across restart** — Choosing Auto no longer flips back to Manual after restarting RevampKey.
+- **Backend-owned model defaults refresh more reliably for Auto mode** — Auto-routed requests now follow the backend’s latest main, weak, and architect model defaults without needing stale local selections.
+- **Manual toolbar model dropdown is visible again** — The compact toolbar selector no longer gets clipped when opening the model menu.
+
 ## [1.3.1] - 2026-06-20
 
 ### Changed
