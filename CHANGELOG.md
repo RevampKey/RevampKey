@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.4.1-beta] - 2026-06-25
+
+### Fixed
+- **Model dropdown deadlock is gone** — The chat toolbar model selector no longer freezes when opened.
+- **AI bridge startup is more resilient** — RevampKey now falls back to any free local port if the preferred AI bridge port is already in use.
+- **Orphan dialog cards now render consistently** — Conversations now show a placeholder AI message when a dialog card arrives without its original assistant message, so the chat no longer appears blank or broken.
+
 ## [1.4.0] - 2026-06-23
 
 ### Changed
