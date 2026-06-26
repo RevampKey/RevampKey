@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.5.0-beta] - 2026-06-27
+
+### Changed
+- **A new titlebar mode toggle is now built into the custom titlebar** — you can switch modes directly from the editor chrome without leaving your current workspace.
+- **Dark mode looks more polished and consistent** — the refreshed dark theme colors improve the app’s overall visual clarity.
+- **RevampKey sign-in is now integrated into the app** — authentication flows are more seamless and feel more native inside the editor.
+
+### Fixed
+- **AI bridge startup is more resilient** — RevampKey now falls back to a free local port automatically if the preferred port is already in use.
+- **Sign-in and session recovery are more reliable** — callback handling, token refresh, and profile updates are less likely to stall or get lost during authentication.
+- **Error reporting is more dependable when something goes wrong** — sidebar diagnostics and console failures are captured more consistently, helping problems surface sooner instead of failing silently.
+
 ## [1.4.1-beta] - 2026-06-25
 
 ### Fixed
