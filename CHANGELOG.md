@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.5.1-beta] - 2026-06-28
+
+### Changed
+- **RevampKey Icons are now the default product icon theme** — the editor now uses the updated RevampKey icon set by default, making product branding more consistent across the interface.
+- **RevampKey branding assets have been refreshed** — updated logo and icon assets give the app a cleaner and more consistent branded look.
+
+### Fixed
+- **AI bridge startup is more reliable** — the bridge now uses a standardized ready signal and a longer startup timeout, reducing failed launches during startup.
+- **Built-in registration no longer uses the wrong marketplace-style flow** — bundled product integrations now register using the correct built-in behavior instead of an incorrect marketplace-style path.
+
 ## [1.5.0-beta] - 2026-06-27
 
 ### Changed
