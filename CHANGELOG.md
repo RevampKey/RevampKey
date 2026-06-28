@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.5.2-beta] - 2026-06-29
+
+### Changed
+- **Model selection now stays aligned more consistently across RevampKey** — Auto and Manual mode behavior now follows the same active setting across the app, runtime-backed requests, and follow-up AI work.
+
+### Fixed
+- **Manual model selection no longer loses state while responses are in progress** — the toolbar selector now stays stable instead of dropping or resetting your choice during active processing.
+- **Workspace model preferences now persist more reliably between sessions** — RevampKey is less likely to drift back to stale model settings after reopening a workspace.
+- **Windows releases now include the expected RevampKey app icons** — installers and shortcuts now show the branded icon set more consistently across supported sizes.
+- **AI configuration updates now reach the bridge more reliably** — background configuration messages are less likely to fail while RevampKey is syncing AI settings.
+
 ## [1.5.1-beta] - 2026-06-28
 
 ### Changed
