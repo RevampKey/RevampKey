@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.5.3] - 2026-07-01
+
+### Added
+- **You can now mention files directly in chat** — type to search your workspace and attach files as context, with recently used files surfacing first.
+
+### Changed
+- **File mention and attachment chips look cleaner** — the picker and chip layout have been refined for a more polished feel.
+
+### Fixed
+- **Model selection and attachments now survive sidebar toggling** — switching the sidebar in and out no longer resets your chosen model or in-progress attachments.
+- **Image attachments stay stable when maximizing or minimizing the window** — thumbnails no longer resize incorrectly during window state changes.
+- **Fullscreen/maximized view is restored correctly after toggling window mode** — returning from a mode switch keeps you on the tab you were viewing.
+- **Model changes now reach active conversations reliably** — switching models mid-conversation no longer leaves a stale model applied to ongoing requests.
+
 ## [1.5.2-beta] - 2026-06-29
 
 ### Changed
