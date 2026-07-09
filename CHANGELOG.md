@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.5.4] - 2026-07-09
+
+### Added
+- **Queued messages now show clearly while the assistant is busy** — sending a message while the assistant is still replying shows it as queued and picks it up automatically once its turn starts.
+
+### Changed
+- **Follow-up messages are picked up sooner** — a message sent during an active response is now picked up as soon as the assistant reaches a natural pause, instead of waiting for the entire response to finish.
+
+### Fixed
+- **Queued messages no longer look stuck or out of order** — fixed queued messages sometimes appearing out of order, showing a stuck highlight, or losing their status indicator once picked up.
+- **Fixed a rare conversation-corrupting race condition** — sending a new message while the assistant was still replying could occasionally corrupt or crash the conversation; this no longer happens.
+- **AI sessions start up more reliably** — fixed slow or failed AI session startup when GitHub was unreachable.
+
 ## [1.5.3] - 2026-07-01
 
 ### Added
