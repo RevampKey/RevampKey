@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 - **Queued messages now show clearly while the assistant is busy** — sending a message while the assistant is still replying shows it as queued and picks it up automatically once its turn starts.
+- **Multi-step assistant responses are now saved as individual steps** — so your conversation history accurately reflects each action taken, instead of merging everything into one message.
 
 ### Changed
 - **Follow-up messages are picked up sooner** — a message sent during an active response is now picked up as soon as the assistant reaches a natural pause, instead of waiting for the entire response to finish.
@@ -19,6 +20,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Queued messages no longer look stuck or out of order** — fixed queued messages sometimes appearing out of order, showing a stuck highlight, or losing their status indicator once picked up.
 - **Fixed a rare conversation-corrupting race condition** — sending a new message while the assistant was still replying could occasionally corrupt or crash the conversation; this no longer happens.
 - **AI sessions start up more reliably** — fixed slow or failed AI session startup when GitHub was unreachable.
+- **Clearer error when a firewall or VPN blocks the connection** — SSL/TLS connectivity failures now show a plain Retry/Cancel dialog instead of failing silently after a long retry delay.
+- **Clearer error on full network loss** — when your connection drops completely, RevampKey now shows a Retry/Cancel dialog instead of appearing to hang.
+- **Friendlier error when the AI provider has an outage** — a mid-response provider failure now shows a plain-language message instead of a raw error, and the conversation stays usable.
+- **Fixed new conversations failing on the very first message** — an unavailable model no longer gets auto-selected behind the scenes, which was blocking some fresh workspaces from sending their first message.
+- **Fixed the assistant losing context partway through multi-step actions** — tool results and reasoning no longer get dropped between steps of a longer task.
+- **Fixed an unexpected sign-in browser window appearing when using OpenRouter** — the packaged app no longer tries to open an interactive OAuth flow it can't complete.
 
 ## [1.5.3] - 2026-07-01
 
