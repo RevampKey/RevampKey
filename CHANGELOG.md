@@ -7,6 +7,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.5.5] - 2026-07-16
+
+### Added
+- **Background AI work is now visible in your conversation list** — active conversations show a live indicator even when you are viewing another conversation.
+- **Multi-repository workspaces now provide repository-level Git status** — RevampKey can distinguish the status of each repository instead of treating the workspace as one undifferentiated folder.
+- **Searches can include or exclude hidden and gitignored files independently** — file discovery gives you more control while preserving which results come from ignored files.
+
+### Changed
+- **AI responses are easier to read** — source lookup markers, file paths, and line-range tags are no longer shown in chat, while the referenced code and formatting remain intact.
+- **Progress indicators now reflect live activity** — progress and stop-button animations appear only while the assistant is actively processing.
+- **Model changes now create a clean conversation boundary** — switching models during a conversation preserves the conversation state more reliably, and notices use the model’s display name.
+- **Workspace context is carried through more reliably** — AI requests retain the relevant workspace folders, repository scope, Git context, and shared prompt context across multi-root workspaces and recursive planning.
+- **Terminal results can include more output** — longer command output is available before it is truncated.
+- **Conversation summarization is more reliable** — summaries avoid repeated processing, preserve workspace scope, and retain memory across the appropriate project context.
+- **Large-context subagent work is more resilient** — oversized requests are handled more safely instead of failing because the input is too large.
+- **The desktop layout is easier to navigate** — persistent sidebar controls now appear in the title bar, title-bar spacing is improved across platforms, and default sidebar widths adapt better to the window size.
+- **New launches go directly to the workspace** — the startup editor is disabled by default.
+- **Dark mode has clearer controls and hierarchy** — checkbox borders are visible and sidebar titles use a quieter contrast.
+
+### Fixed
+- **Extension browsing is available again** — the built-in extension marketplace configuration has been restored.
+- **Explicit auxiliary-sidebar visibility settings are now respected** — RevampKey no longer overrides a user’s chosen visibility.
+- **Workspace storage and conversation checkpoints now use the correct location** — AI operations are less likely to lose the workspace context needed to restore or continue work.
+
 ## [1.5.4] - 2026-07-09
 
 ### Added
