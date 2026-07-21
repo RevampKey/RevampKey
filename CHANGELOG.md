@@ -7,6 +7,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.0] - 2026-07-22
+
+### Added
+- **A new agent-first workspace makes active work easier to follow** — projects, conversations, and tasks are organized in a dedicated navigation rail with nested conversations, processing indicators, timestamps, and quick new-task actions.
+- **Plans now have a dedicated workspace** — review modules, live file changes, and specifications in separate tabs, open changed files in the editor, and resize or collapse the plan pane to fit your workflow.
+- **Settings now have a redesigned home** — Account, Usage & Plan, Models, Code Structure, Git Workflow, and MCP Servers are organized in a clearer, responsive layout.
+- **The workspace now remembers more of your layout** — expanded projects and the last active conversation are restored when you return.
+
+### Changed
+- **Agent and Editor mode feel more consistent** — the composer, landing screen, navigation, and surrounding controls now share the same polished visual language.
+- **The new workspace is optimized for focused AI work** — wide layouts use a calmer hero/composer experience, clearer context controls, and less distracting chrome.
+- **Tool activity is easier to scan** — low-attention tool calls are grouped into concise summaries, while important file changes and results remain easy to expand.
+- **The default dark theme has a refreshed Graphite and Violet palette** — navigation, cards, controls, and focus states have clearer hierarchy and contrast.
+
+### Fixed
+- **Changed files and diffs are more reliable** — staged, unstaged, untracked, empty, and large diff states now open and display with the correct scope.
+- **Plan-pane navigation is more dependable** — selecting a tool result or changed file opens the right destination, including falling back to the editor when no plan view is available.
+- **Sidebar and plan-pane interactions work consistently across layouts** — project rows, conversation selections, collapsed pane tabs, and wide-mode clicks now respond as expected.
+- **The chat workspace no longer reloads unnecessarily on startup** — cold starts avoid duplicate initialization and preserve the active context more reliably.
+- **Composer states and uploaded images render correctly** — working indicators, image thumbnails, focus borders, and spacing no longer get stuck or drift between modes.
+
 ## [1.5.5] - 2026-07-16
 
 ### Added
