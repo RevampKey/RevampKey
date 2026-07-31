@@ -7,6 +7,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.1] - 2026-07-31
+
+### Added
+- **Artifact search and retrieval results now appear directly in chat** — inspect past work and supporting evidence without leaving the conversation.
+- **Past Work Reports settings give you control over artifact search** — choose whether the main agent and subagents search the current conversation, specifications, workspace, or all available reports.
+- **Codebase structure sharing can now be configured independently** — keep the context available to the main agent and subagents aligned with the way you work.
+
+### Changed
+- **Long-running AI work is easier to resume** — interrupted subagent work retains more of its context and can continue after a restart instead of requiring a fresh run.
+- **Research context is easier to carry forward** — earlier reports, repository identity, attachments, and follow-up context remain available when later work builds on them.
+- **Queued follow-ups now preserve the original request while applying consistent safety checks** — the message you entered remains the message the assistant processes.
+- **Agent navigation spacing is more consistent** — the workspace rail is easier to scan while moving between active work.
+
+### Fixed
+- **Queued follow-ups no longer enter the active run too early** — they wait for the correct handoff point before being processed.
+- **Queued messages now replay consistently after a restart** — exact model-facing content is preserved instead of being regenerated differently.
+- **Inline follow-ups resume with the correct conversation context** — continuing work no longer loses the connector-owned handoff state.
+- **Artifact search and retrieval results render safely and clearly** — tool responses no longer show redundant metadata or fail to display usable results.
+- **Main-agent and subagent context stays separated correctly** — codebase structure and artifact scope no longer leak across agent boundaries.
+- **Attachments and summaries preserve the right order and context** — longer multi-step work is less likely to lose evidence or continue from stale state.
+
 ## [2.0.0] - 2026-07-22
 
 ### Added
