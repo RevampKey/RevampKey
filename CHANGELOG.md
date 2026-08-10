@@ -7,6 +7,44 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.1.0] - 2026-08-10
+
+### Added
+- **Live plan usage is now visible and updates after each completed request** — see how much of your plan capacity you have used, including public-rate plans.
+- **Earlier summary records can be opened to recover conversation context** — find the details you need when returning to long-running work.
+- **Notebook edits now show a structured preview before changes are applied** — review source changes and cleared outputs before opening the notebook.
+- **Notebook and individual cell contents now appear directly in chat** — inspect notebook results without leaving the conversation.
+- **The Agent navigation rail can be resized** — give active work more room while keeping the workspace comfortable to scan.
+- **MCP-aware workflows now explain configured-but-disabled servers and available connector options** — understand what needs credentials or activation before continuing.
+- **Code subagents can safely inspect shell and runtime behavior** — investigate projects that need more than static file discovery.
+- **MCP operations now use scoped delegation, provider-specific guidance, and current tool schemas** — work with connected services more reliably.
+
+### Changed
+- **Related tool activity and recovered conversation history are grouped more clearly** — compact reports and replies are easier to scan.
+- **Approval and prompt cards now wait for your explicit choice** — they no longer select a default after a timeout.
+- **Conversation compaction preserves more of your work across restarts and checkpoint reverts** — user decisions, complete turns, reasoning, tool results, tracker context, revisions, and subagent edits remain recoverable.
+- **Search and environment discovery cover more workspace paths, project types, and local tools** — repository investigation is broader while remaining bounded.
+- **Git workflows preserve structured targets and ranges, support bounded retries, and keep oversized terminal output recoverable** — important context is less likely to be lost during operations.
+- **Delegated research now carries the current request, reuses reports already available, and limits automatic handoffs to the active reflection** — follow-up work stays focused and avoids unnecessary repetition.
+- **Planning and delegated work stay aligned with the current project state** — tracker and specification context remains authoritative as work progresses.
+- **Billing and request metadata remain available through completion and persistence** — usage-related responses continue to carry the information needed by the app.
+- **MCP operation reports are easier to find after delegated work completes** — they are grouped with other operations instead of being misplaced.
+
+### Fixed
+- **Failed requests, prompt errors, and unexpected disconnects now remain visibly interrupted and retryable** instead of appearing complete.
+- **Plan and tracker updates now route to the root plan correctly after a cold start or child task session**.
+- **The Revamp AI layout-control icon is available again in Editor mode**, while maximized auxiliary views hide redundant layout actions.
+- **Stale subagent calls from ended sessions are marked abandoned** instead of remaining indefinitely pending.
+- **Failed streamed tool calls are no longer dispatched as if they were valid**, and interrupted operations report an unknown outcome instead of a misleading failure or success.
+- **Prompt construction and caching no longer hit the identified crash paths**.
+- **Completed sibling tool results are retained when another tool in the same batch is slow**.
+- **Conversation summaries and checkpoint reverts no longer silently lose content, surviving segments, user decisions, or subagent edits**.
+- **Search-and-replace accepts unambiguous partial-line matches and explains the actual mismatch when a replacement cannot be applied**.
+- **Stopped subagents retain useful work and handoff context** instead of collapsing to a single interruption notice.
+- **Attachments remain scoped to the message that supplied them** instead of leaking into later work.
+- **Public-rate billing rejections now explain the server-provided reason and avoid futile retries**.
+- **Large repository maps avoid dependency trees and remain bounded on unusually large workspaces**.
+
 ## [2.0.1] - 2026-07-31
 
 ### Added
