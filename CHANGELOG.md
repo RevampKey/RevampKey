@@ -7,6 +7,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.2.0] - 2026-08-13
+
+### Added
+- **Interactive Mermaid diagrams now open directly in chat** — explore visual flows without leaving the conversation, with clearer cards and theme-aware colors.
+- **PDF attachments are supported alongside images** — share more of the material you are working with in a request.
+- **Subagent activity is easier to follow as work happens** — grouped runs, live status, clearer activity titles, and visible results make background work easier to understand.
+- **Concurrent tool and AI work can run in parallel more reliably** — longer requests spend less time waiting on independent work.
+- **MCP workflows provide broader guidance for connected services** — work with more provider capabilities and setup paths.
+
+### Changed
+- **Attachment handling is more dependable** — transfers are acknowledged correctly, failed uploads preserve your draft, and attachments stay with the request that supplied them.
+- **Diagrams render more consistently across chat sizes and can be saved through the app** — visual content remains usable from creation through export.
+- **Plan conversations are ordered by their latest activity** — the work you touched most recently is easier to find.
+- **Search-and-replace results explain multi-edit changes more clearly** — previews better match the changes that will be applied.
+- **Auxiliary sidebar defaults are balanced again** — opening the workspace starts from a more predictable layout.
+
+### Fixed
+- **Confirmation prompts no longer compete with each other** — concurrent requests wait their turn instead of presenting overlapping choices.
+- **Repository-map context is no longer sent to code subagents when it is disabled** — delegated investigations follow the selected workspace-context settings.
+- **The obsolete Source Control commit-message action has been removed** — the SCM view no longer shows an unavailable command.
+- **Interactive diagrams no longer appear with incorrect viewport dimensions** — flowcharts remain visible and proportioned correctly in chat.
+
 ## [2.1.0] - 2026-08-10
 
 ### Added
