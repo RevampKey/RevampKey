@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.3.0] - 2026-08-19
+
+### Added
+- **Plans and pricing are now available inside RevampKey** — review available plans and start checkout without leaving the app.
+- **Manual model selection is now available through paid plans** — trial accounts are guided to upgrade when they choose it.
+
+### Changed
+- **Concurrent work targeting the same repository is coordinated more safely** — Git and file changes no longer interfere with each other when multiple tasks run at once.
+
+### Fixed
+- **RevampKey now starts correctly on systems without Git installed** — no-Git workspaces no longer fail during startup.
+
 ## [2.2.0] - 2026-08-13
 
 ### Added
