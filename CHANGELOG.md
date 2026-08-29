@@ -7,6 +7,38 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.4.0] - 2026-08-29
+
+### Added
+- **Plans and pricing are now available inside RevampKey** — review available plans, compare options, and begin checkout without leaving the app.
+- **Paid plans now unlock manual model selection** — trial accounts receive a clear upgrade path instead of a setting that silently reverts.
+- **Design workspaces are now available for projects** — view responsive artboards, compare designs, inspect revisions, and navigate a project visually.
+- **An experimental Flows workspace is now available** — explore connected process diagrams directly alongside project work.
+- **A Files tab now makes workspace context easier to browse and attach** — search files, inspect their status, and add them to chat.
+- **Design and flow boards now explain empty projects and offer a clear first action.**
+- **Pane navigation now supports consistent keyboard shortcuts** — switch tabs and show or hide the pane without leaving the keyboard.
+- **Design and flow results now appear directly in the plan pane** — inspect generated artifacts and open their corresponding board.
+- **Tool permissions can now be remembered for a conversation**, reducing repeated approval prompts for connected tools.
+- **Long-running terminal tasks can now be listed and stopped** while work continues in the background.
+- **Instructions can intentionally replace an existing file** when a full rewrite is the requested outcome.
+
+### Changed
+- **Design and flow boards refresh as changes happen** — updates appear without requiring a manual reopen.
+- **The design workspace now keeps chat, navigation, canvas, and plan context together** with controls for focus, density, zoom, and inspection.
+- **Canvas actions now prepare editable prompts in the composer** so you can review or adjust a request before sending it.
+- **Flow diagrams are easier to read and follow** — zoom into a diagram and jump to linked flows from its card.
+- **Workspace and plan tabs now keep a stable order**, and plain chats stay compact until plan content is available.
+- **Multi-root file searches now identify the workspace folder for each result.**
+- **AI-assisted work now carries more focused project context and clearer progress across planning, handoffs, and long-running tasks.**
+
+### Fixed
+- **Design previews now render reliably from their actual document content**, and the canvas layout loads correctly when it opens.
+- **The sidebar no longer risks a crash during loading and sign-in transitions.**
+- **Boards from another project no longer remain visible after switching projects.**
+- **Files and file-mention requests now reach the workspace correctly.**
+- **Derived design states stay grouped beneath their base artboard** instead of appearing as unrelated screens.
+- **Connected-tool approvals, restored context, interrupted work, and browser verification behave more reliably across sessions.**
+
 ## [2.3.0] - 2026-08-19
 
 ### Added
