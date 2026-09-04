@@ -7,6 +7,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.5.0] - 2026-09-04
+
+### Added
+- **Choose a separate AI model for design work** — design requests can now use a model suited to visual and interface tasks without changing the model used for the rest of your work.
+- **Design projects now make their target surface, theme authority, and token sources explicit** — unresolved assumptions are surfaced instead of being silently carried into the result.
+- **Specs now open as one continuous document** — update cards can take you directly to the section that changed.
+- **Chat and design or flow boards can now be resized side by side** — adjust the split to give each part of your workspace the room it needs.
+
+### Changed
+- **Plan panes keep project destinations available while work is being created** — Modules, Specs, Design, and Flows now provide clear empty states instead of disappearing until an artifact exists.
+- **Canvas and flow controls are simpler and more responsive** — boards adapt their cards to the available space without requiring a density setting.
+- **The Plan pane now opens to the most useful available view** — existing modules take priority, while new or empty plans start somewhere usable.
+- **Large-file creation and replacement now completes with a warning** — files are no longer rejected solely for exceeding 600 lines.
+
+### Fixed
+- **Artboards now fit the available canvas width** and use borders that match the surrounding VS Code theme.
+- **Empty plan states are clearer and vertically centered**, making missing modules and documents easier to understand.
+- **Repository work now shows waiting progress** when another operation has exclusive access.
+- **Queued follow-ups are combined into one turn and tracked together** — every message entered during a running request remains accounted for in the conversation.
+
 ## [2.4.0] - 2026-08-29
 
 ### Added
