@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.6.0] - 2026-09-13
+
+### Added
+- **Buy add-on credits when you run out mid-cycle** - the Usage & plan panel now offers a one-time top-up of the current cycle, priced in your own currency. Add-on credits are only used once your plan capacity is gone, anything you do not use carries over to the next cycle, and buying them changes nothing about your plan or what renews. Your usage updates on its own once the payment goes through, without restarting the editor.
+
+### Fixed
+- **Usage warnings now say what actually happens when you run out** - they suggested the editor would quietly carry on with a lesser model. It does not: requests stop until the cycle resets, and the warnings now say so, alongside the two ways to keep working.
+
+## [2.5.1] - 2026-09-13
+
+### Fixed
+- **A new plan now appears as soon as it is active** — buying or upgrading a plan happens on the payment provider's page in your browser, and the editor had no way of learning that it finished, so it kept showing your previous plan until the window was restarted. It now picks up the change on its own, and checks immediately when you come back to the editor.
+
 ## [2.5.0] - 2026-09-04
 
 ### Added
