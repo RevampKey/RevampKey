@@ -7,6 +7,39 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.7.0] - 2026-09-27
+
+### Added
+- Buy add-on credits from Usage & plan, choose the pack that fits, and see the price in your currency; you can also control whether remaining credits are spent.
+- See loaded skills and project-planning documents in dedicated chat views.
+- Create and manage project reports with richer layouts, and keep structured findings available across delegated work.
+- Answer grouped agent questions with single choice, multiple choice, ranking, and rating controls.
+- Schedule workspace follow-ups in natural language or cron, with timing that remains correct across daylight-saving changes.
+- Prepare pull requests using branch details, repository templates, linked work, and recorded test results.
+- Search the web with DuckDuckGo without installing a separate search tool.
+
+### Changed
+- Chat shows processing feedback sooner, distinguishes active reasoning from completed thoughts, and scrolls directly to new messages.
+- Project planning retains tracker and spec context; flow and design reviews focus on decisions the agent leaves open.
+- New project-scope sections no longer repeat a truncated copy of your initial request.
+- Research is more focused and source citations are easier to verify; blocked searches and JavaScript-rendered pages are handled more accurately.
+- The plan canvas uses a more compact default width, leaving more room for chat.
+- Git commit messages cover each coherent change, and co-author trailers use readable model names.
+- Detailed request-content diagnostics are disabled by default, reducing the risk of storing private conversation data.
+
+### Fixed
+- Usage warnings now explain what happens when plan credits run out and how to continue working.
+- Plan/Tracker state stays independent of the canvas and flow board.
+- Scheduled follow-ups now run in the workspace where they were created.
+- Switching from OpenAI to Anthropic no longer forwards incompatible reasoning data.
+- Commands and tools no longer inherit Runtime credentials or a bundled Python path, preventing credential leaks and interpreter conflicts.
+- Browser evidence stays with the conversation that created it and can be read again without cluttering the project.
+- Pull-request evidence keeps commit attribution and the required footer in place.
+
+### Removed
+- Flow and report lifecycle-status and supersession controls; revision and deletion history remain.
+- The native Accounts title-bar button; account and settings access remains in the RevampKey interface.
+
 ## [2.6.0] - 2026-09-13
 
 ### Added
