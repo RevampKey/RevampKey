@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.7.1] - 2026-09-28
+
+### Fixed
+- Reports can be created again in the installed app; previously the agent could not open a report and wrote a plain markdown file instead.
+- Questions from the agent now mark at most one option as recommended, and show no recommendation when there is no clear pick.
+
 ## [2.7.0] - 2026-09-27
 
 ### Added
