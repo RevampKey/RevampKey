@@ -7,6 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.8.0] - 2026-10-01
+
+### Added
+- Chats created before this update stay with their original workspace; new conversations are shared across windows, with chats from other folders easy to find and reopen.
+- Attach files and folders directly to a conversation, with up to 15 image or PDF attachments at a time and other files included by reference.
+- Plan mode can now use project reports while working through a task.
+
+### Changed
+- Thoughts are collapsed by default, making conversations easier to scan.
+- Planning and design work stays focused on the requested states, and related updates and checks stay proportionate to the task.
+
+### Fixed
+- Attached files now resolve correctly in Agent mode.
+- Opening a conversation after a Runtime update refreshes its instructions instead of replaying stale prompts.
+- Images and PDFs read with the file tool are now attached for analysis.
+
 ## [2.7.1] - 2026-09-28
 
 ### Fixed
