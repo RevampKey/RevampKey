@@ -7,6 +7,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.0.0] - 2026-10-09
+
+### Added
+- Browse and inspect websites in RevampKey’s built-in browser, let the agent interact with pages, and attach selected elements to a chat; each conversation keeps its own tabs.
+- Save browser downloads directly and preview pages in phone or tablet sizes.
+- Run delegated tasks in the background, stop, message or resume them, and get a heads-up when the agent needs your input.
+
+### Changed
+- Browser, report, flow, and design work now opens in conversation-specific workspace tabs, so you can switch between a page and chat without losing your place.
+- Chat activity is easier to scan with folded tool summaries and clearer task statuses; live thinking and its duration remain visible and survive reloads.
+- Background runs stop promptly and quietly, and their findings wait for the next turn instead of holding up the main agent during a status check.
+
+### Fixed
+- Browser pop-ups and sign-in windows now open as tabs; returning to a conversation restores its browser, and the agent can reach pages while they are still loading.
+- Browser downloads use safe filenames on Windows, browser language settings work on Linux, and full-screen previews and dialogs no longer reveal the page underneath.
+- Background runs keep their correct status when they finish; tool-only and empty status checks no longer leave misleading chat replies, and any supplied guidance remains visible.
+
+### Removed
+- The external Playwright MCP connector and its sign-in command; the in-app browser replaces them. Existing Playwright connector settings are removed during migration.
+
 ## [2.8.0] - 2026-10-01
 
 ### Added
