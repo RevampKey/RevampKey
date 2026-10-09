@@ -1,92 +1,71 @@
 # RevampKey
 
-**AI-Powered Code Refactoring Editor**
+**Build software with the discipline of a real team.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE.md)
-[![Downloads](https://img.shields.io/github/downloads/RevampKey/revampkey/total)](https://github.com/RevampKey/revampkey/releases)
-[![Latest Release](https://img.shields.io/github/v/release/RevampKey/revampkey)](https://github.com/RevampKey/revampkey/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/RevampKey/RevampKey/total)](https://github.com/RevampKey/RevampKey/releases)
+[![Latest Release](https://img.shields.io/github/v/release/RevampKey/RevampKey)](https://github.com/RevampKey/RevampKey/releases/latest)
 
 ## About
 
-RevampKey is an AI-powered code editor that combines the simplicity of a modern code editor with advanced AI capabilities for code refactoring and development. Built on the foundation of Visual Studio Code, RevampKey enhances your coding experience with intelligent refactoring tools and AI assistance.
+RevampKey is a desktop AI code editor for developers and teams of any size. Describe what you want to build in plain language: a team of AI specialists researches, plans with you, designs screens, writes the code in reviewable steps, and tests it. You can review and approve the plan and screens before work begins.
 
-## Features
+Built on Visual Studio Code, RevampKey works both for starting with an idea and for making planned, reviewable changes in an existing codebase.
 
-- **AI-Powered Refactoring**: Intelligent code suggestions and automated refactoring
-- **Modern Code Editor**: Full-featured editing with syntax highlighting, IntelliSense, and debugging
-- **Extension Support**: Compatible with Open VSX extensions
-- **Cross-Platform**: Available for Windows, macOS, and Linux
-- **Privacy-First**: Your code stays on your machine
+## How it works
+
+1. **Describe the outcome.** Explain what you want in the same plain language you would use with a colleague.
+2. **Research and plan.** RevampKey investigates the project and the web, then presents findings and asks about anything unclear.
+3. **Review the design.** For visual work, see and approve the screens before code is written.
+4. **Build in steps.** The approved plan is carried out as small changes you can read and review.
+5. **Check the result.** Each step is tested before the work is reported as done.
+
+For an existing project, RevampKey maps the codebase, plans the requested change, and makes reviewable commits rather than leaving one large, unexplained change. See [how it works](https://revampkey.com/how-it-works) for the full walkthrough.
 
 ## Download
 
-Download our latest build from our [Releases](https://github.com/revampkey/revampkey/releases/latest) page.
+Download RevampKey for [macOS, Windows, or Linux](https://revampkey.com/downloads). The download page links directly to the current builds. You can also browse the [latest GitHub release](https://github.com/RevampKey/RevampKey/releases/latest).
 
-### Supported Platforms
+The current 3.0.0 release provides:
 
-| Platform | Architecture | Download |
-|----------|--------------|----------|
-| **Windows** | x64, ARM64 | `.exe` installer |
-| **macOS** | Universal (Intel + Apple Silicon) | `.dmg` |
-| **Linux** | x64, ARM64 | `.deb`, `.rpm`, `.tar.gz` |
+| Platform | Available builds |
+|---|---|
+| Windows | x64 system and user `.exe` installers |
+| macOS | Apple silicon `.dmg` installer and `.zip` archive |
+| Linux | x64 `.deb`, `.rpm`, and `.tar.gz` packages |
 
-### Installation
+Formats and architectures can change between releases; use the current download page or release assets when choosing a build.
 
-#### Windows
-1. Download `RevampKey-Setup-x64.exe` (or ARM64 version)
-2. Run the installer
-3. Follow the installation wizard
+### Install
 
-#### macOS
-1. Download `RevampKey-darwin-universal.dmg`
-2. Open the DMG file
-3. Drag RevampKey to Applications folder
+- **Windows:** Download and run the system or user `.exe` installer.
+- **macOS:** Download the Apple silicon `.dmg`, open it, and follow the installer instructions.
+- **Debian or Ubuntu:** Download the `.deb` package, then install it with `sudo apt install ./revampkey_*_amd64.deb` from your Downloads folder.
+- **Fedora or RHEL:** Download the `.rpm` package, then install it with `sudo dnf install ./revampkey_*_x86_64.rpm` from your Downloads folder.
 
-#### Linux (Debian/Ubuntu)
-```bash
-# Download the .deb file
-sudo dpkg -i revampkey_*.deb
+## System requirements
 
-# Install dependencies if needed
-sudo apt-get install -f
-```
+- **Minimum:** 4 GB RAM and 500 MB of free disk space.
+- **Recommended:** 8 GB or more of RAM and 1 GB or more of free disk space.
+- **Operating system:** macOS 12 or later, Windows 10 or later, or Ubuntu 20.04 or later.
 
-#### Linux (Fedora/RHEL)
-```bash
-# Download the .rpm file
-sudo dnf install revampkey-*.rpm
-```
+## Get started
 
-## Updates
+1. Install RevampKey and open a project folder—or start with an idea you want to turn into software.
+2. Describe the outcome you want.
+3. Answer any questions and review the plan or screens.
+4. Approve the work, then follow its implementation steps and test results.
 
-RevampKey supports automatic update notifications. When a new version is available:
-- **macOS**: Updates install automatically in the background
-- **Linux**: You'll be notified to update via your package manager
-- **Windows**: You'll be notified to download the latest version
+For more, read the [getting started guide](https://revampkey.com/docs/getting-started) and [documentation](https://revampkey.com/docs).
 
-You can also check for updates manually via **Help > Check for Updates**.
+## Privacy
 
-## System Requirements
-
-- **OS**: Windows 10/11, macOS 10.15+, or Linux (recent distributions)
-- **RAM**: 4GB minimum, 8GB recommended
-- **Disk Space**: 500MB free space
-
-## Getting Started
-
-1. **Install RevampKey** using the instructions above
-2. **Open a project**: File > Open Folder
-3. **Install extensions**: View > Extensions (compatible with Open VSX)
-4. **Explore AI features**: Access AI refactoring tools from the editor context menu
-
-## Documentation
-
-For detailed documentation and guides, visit [revampkey.com](https://revampkey.com)
+Plans, specifications, and diagrams are saved in your project folder rather than our cloud. Work in RevampKey is not used to train models, and tokens for connected tools are stored in your operating system's secure storage. Read the [Privacy Policy](https://revampkey.com/privacy-policy) for details.
 
 ## Support
 
-- **Report Issues**: [GitHub Issues](https://github.com/revampkey/revampkey/issues)
-- **Website**: [revampkey.com](https://revampkey.com)
+- **Report an issue:** [GitHub Issues](https://github.com/RevampKey/RevampKey/issues)
+- **Website:** [revampkey.com](https://revampkey.com)
 
 ## License
 
@@ -100,12 +79,8 @@ This software includes code from Visual Studio Code (Code - OSS),
 licensed under the MIT License by Microsoft Corporation.
 ```
 
-See [LICENSE.md](LICENSE.md) for full license text.
-
-## Privacy
-
-RevampKey respects your privacy. Your code and data remain on your local machine. For more information, see our [Privacy Policy](https://revampkey.com/privacy-policy).
+See [LICENSE.md](LICENSE.md) for the full license text.
 
 ## Acknowledgments
 
-RevampKey is built on top of [Visual Studio Code - Open Source](https://github.com/microsoft/vscode), and we are grateful to Microsoft, the VS Code community, and [aider](https://github.com/Aider-AI/aider), an open-source AI pair programming project, for their excellent work and contributions.
+RevampKey is built on [Visual Studio Code - Open Source](https://github.com/microsoft/vscode) and [aider](https://github.com/Aider-AI/aider), an open-source AI pair-programming project. We are grateful to Microsoft, the VS Code community, and the aider contributors for their work.
