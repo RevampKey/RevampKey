@@ -2,6 +2,14 @@
 
 **Build software with the discipline of a real team.**
 
+## Watch RevampKey in action
+
+<video src="https://github.com/RevampKey/RevampKey/releases/download/3.0.0/revampkey-explainer-48s-full-4k.mp4" controls width="100%">
+  Your browser does not support embedded video. <a href="https://github.com/RevampKey/RevampKey/releases/download/3.0.0/revampkey-explainer-48s-full-4k.mp4">Watch or download the 48-second 4K product explainer.</a>
+</video>
+
+[Watch or download the 48-second 4K product explainer](https://github.com/RevampKey/RevampKey/releases/download/3.0.0/revampkey-explainer-48s-full-4k.mp4).
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE.md)
 [![Downloads](https://img.shields.io/github/downloads/RevampKey/RevampKey/total)](https://github.com/RevampKey/RevampKey/releases)
 [![Latest Release](https://img.shields.io/github/v/release/RevampKey/RevampKey)](https://github.com/RevampKey/RevampKey/releases/latest)
