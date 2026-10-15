@@ -5,6 +5,30 @@ All notable changes to RevampKey will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.1.0] - 2026-10-15
+
+### Added
+- Apps: turn work from a chat into an app you can run again, with its own screen, settings, data, schedules and a "How it works" tab. Find them in the new Tasks and Apps home, and archive or restore an app from its row menu.
+- Ask questions and approve changes from an app's screen, and pick up where an approval left off.
+- Connect Apollo, or any custom remote server, signing in through your browser, and let the agent ask you to connect a provider when it needs one.
+- When you report an AI response, you can include the conversation so our team can review it.
+
+### Changed
+- Updated agent runtime.
+
+### Fixed
+- A lapsed plan now shows in Usage & plan instead of "Free".
+- Windows now shows the folder name in the sidebar instead of the full path.
+- Dragging the sidebar divider no longer sticks when released over an app.
+
+## [3.0.1] - 2026-10-13
+
+### Added
+- Report any AI response from the flag icon under the reply, choosing a reason and optionally sharing the response with our team.
+
+### Changed
+- Windows builds are now also prepared for distribution through the Microsoft Store.
+
 ## [3.0.0] - 2026-10-09
 
 ### Added
