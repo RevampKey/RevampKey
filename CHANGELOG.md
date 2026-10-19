@@ -5,6 +5,28 @@ All notable changes to RevampKey will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.2.0] - 2026-10-19
+
+### Added
+- Pick a model from a searchable list with maker logos and a filter for models that can see images, and choose how much each chat thinks before it answers.
+- Connectors: browse the catalog in Settings, open a connector's own page, and sign in from there. Gmail, Google Calendar, Google Drive and BigQuery connect with your Google account.
+- The agent can search for a connector it needs and ask you to connect it through a card in the chat.
+- Free trial: see how much of your trial is left, preview Pro models from the model list, and get a reminder before the trial runs out.
+
+### Changed
+- Apps belong to you, not a folder: the Apps list shows all of them, and an app opens from any folder in the current window.
+- The home screen suggests everyday tasks and apps, and every side-pane tab shares one consistent empty state.
+- The Agent button in the title bar stands out more and shows its shortcut on hover.
+- Updated agent runtime, with app building that starts from the design.
+
+### Fixed
+- Apps now work in installed builds, and a new folder window no longer shows an empty Apps list while the agent starts.
+- Connectors start correctly on Windows.
+- Connector sign-in finishes as soon as your browser returns.
+- Closing a browser tab always removes it from the tab list.
+- The agent is no longer told that your repositories changed when they did not, and a connector added mid-chat is now announced to it.
+- The chat history file stays small, so long-running projects load faster.
+
 ## [3.1.0] - 2026-10-15
 
 ### Added
