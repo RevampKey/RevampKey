@@ -5,6 +5,24 @@ All notable changes to RevampKey will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.3.0] - 2026-10-22
+
+### Added
+- App Gallery: browse ready-made apps for sales, marketing, SEO and ads, install one in a click, and connect what it needs. Find it, along with New app, under Apps in the sidebar.
+- RevampKey Light, a warm light theme. RevampKey now follows your computer's light or dark appearance by default.
+- Plans & pricing: confirm the exact price before changing plan, see a pending change and withdraw it, and find a Set up a team entry. Team plans appear in the model picker.
+- Double-click a pasted snippet in the chat box to edit its full text before sending.
+
+### Changed
+- On the Go plan, Pro models show a Pro label with an upgrade option in the model picker, and the chat falls back to Auto if your saved model is no longer included.
+- Helpers the agent delegates work to now run in the background by default, so you can keep chatting while they work.
+- The thinking slider is slimmer and your pick is kept while you write the first message.
+- Chat looks right in light themes: the message box, menus and terminal output follow the theme.
+
+### Fixed
+- A message with only an attachment now starts a reply, and the chat is titled from the attachment.
+- macOS screenshots with special characters in their names can be opened by the agent.
+
 ## [3.2.0] - 2026-10-19
 
 ### Added
