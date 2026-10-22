@@ -5,6 +5,16 @@ All notable changes to RevampKey will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.4.0] - 2026-10-22
+
+### Added
+- The agent can now resize the in-app browser, for example to 1600x1000, when a narrow pane hides tabs or menus. The page is shown scaled to fit, screenshots match the new size, and the agent can switch back to the pane's own size afterwards.
+
+### Fixed
+- Chats and other saved work no longer fail to save on Windows when antivirus, search indexing or a cloud-sync app has the file open for a moment. The save now retries briefly instead of showing an error.
+- Long conversations that include a PDF attachment are summarized again once they reach the model's limit. Before, a PDF stopped the size check from working, so these chats kept growing.
+- A turn no longer ends with an error when the conversation holds a screenshot or attachment and something outside the chat changed, such as an app's data.
+
 ## [3.3.1] - 2026-10-22
 
 ### Fixed
