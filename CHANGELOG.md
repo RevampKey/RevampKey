@@ -5,6 +5,34 @@ All notable changes to RevampKey will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.5.0] - 2026-11-03
+
+### Added
+- Teams (experimental): an autopilot is now a team. Its members work through a queue of jobs on their own, and it stops at a check-in to ask you before it continues. Type `New team:` in chat to start one.
+- Each team has a workspace of full-page screens. Move between them from the side rail, and each screen keeps its history.
+- A People tab shows a team's members and their skills. Edit a skill and it is saved as a new version.
+- Each team keeps linked notes, and you can @-mention a member in team chat.
+- Team members can work through the rows of a table at the same time as light, independent workers.
+- New team templates for Job applications, Support desk and SEO pages. Each asks for the kind of tool it needs, and any connected tool or the in-app browser can fill it.
+- Install connector skills from marketplace links.
+
+### Changed
+- The App Gallery's ready-made apps are now teams, with members and notes built in.
+- Check-ins are action-first. Each one names the job, shows where the work has drifted from the plan, and a paused app shows a single line saying so.
+- Chat text reads at a comfortable 14px, and fonts and text sizes are the same across the app.
+- Resuming or retrying a bulk run can raise a limit the run already reached.
+
+### Fixed
+- A team's tab no longer stays open when you start a new task in another conversation.
+- Browser tabs restored from an earlier session load only when their conversation's pane is showing.
+- Google pages opened in the in-app browser keep the Google account you are signed in with.
+- Tool-call spinners stop when the runtime stops in the middle of a turn, and a turn ends with a visible message when an unexpected error interrupts it.
+- If you write while an app is running, the app answers your message first.
+- Research that finds nothing to save now says why, instead of being marked done.
+- Interrupted team turns no longer show their reasoning in the reply.
+- The linter note appears only when it finds problems.
+- Settings shows USD top-up prices as $12, not US$12.
+
 ## [3.4.0] - 2026-10-22
 
 ### Added
