@@ -5,6 +5,17 @@ All notable changes to RevampKey will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.6.0] - 2026-11-03
+
+### Added
+- 16 new team templates for legal work, including legal pages, contract review, privacy compliance, brand protection, open-source licences, company admin, freelancer legal kits and breach readiness. Find them under Legal in Hire a team.
+
+### Changed
+- Hire a team has a calmer new look: a category list with counts, a featured team, plain-language descriptions, member avatars, and a team page with live screen previews, members, how it works and a configurable section.
+- Hire a team now has a "Create your own team" entry point.
+- The team gallery loads from RevampKey's servers, so new teams show up without updating the app, and it keeps working offline from its last copy.
+- The hire dialog follows your theme colours in dark mode.
+
 ## [3.5.2] - 2026-11-03
 
 ### Added
