@@ -5,7 +5,7 @@ All notable changes to RevampKey will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [3.5.0] - 2026-11-03
+## [3.5.1] - 2026-11-03
 
 ### Added
 - Teams (experimental): an autopilot is now a team. Its members work through a queue of jobs on their own, and it stops at a check-in to ask you before it continues. Type `New team:` in chat to start one.
