@@ -5,6 +5,22 @@ All notable changes to RevampKey will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.7.0] - 2026-11-12
+
+### Added
+- Open a connector's link to set it up, and attach a connected connector's skills so the agent can use them.
+- Search Google in the built-in browser and stay signed in to your Google account.
+- Take back a message you stopped, with its attachments restored, and edit your last message.
+- Long pasted text appears as a small inline chip where your cursor was. Short plain text is pasted as normal text.
+
+### Changed
+- Replies start sooner and use fewer tokens, because the agent carries a lighter set of tools on every turn.
+
+### Fixed
+- Your cursor is back in the chat box after you switch to another app and return, on Windows too.
+- The agent notices the pages you opened in the built-in browser and works in them instead of opening a second copy.
+- The agent stays on your request after fixing something along the way instead of stopping to ask.
+
 ## [3.6.0] - 2026-11-03
 
 ### Added
