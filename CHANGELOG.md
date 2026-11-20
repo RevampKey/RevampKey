@@ -5,6 +5,25 @@ All notable changes to RevampKey will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.7.1] - 2026-11-20
+
+### Added
+- Chats and projects now live in one Chats list. Branch a chat from any answer, and rename, archive or split off a chat from its menu.
+- Approve a team's work in one tap from the Work board, the Workspace or a bar above the chat box, and undo it until the team's next job starts.
+- Team windows show counts on each tab, what each teammate is working on right now, and what each finished job cost.
+- Teams can keep web links in their tables, and team screens can copy text, such as a content plan, to your clipboard.
+
+### Changed
+- The usage meter in the sidebar moves live while the agent works, instead of only after a reply finishes.
+- The activity line no longer shows a red "failed" count for steps the agent retried.
+
+### Fixed
+- Questions from the agent recommend a single option, and the question card no longer lets the chat show through it.
+- Teams refuse saved browser scripts that cannot run, and no longer count a partial test as proof that a script works.
+- Delegated tasks no longer resend every image and PDF in the chat, so they start faster and cost less.
+- On macOS, the cursor stays in the chat box when you switch back to RevampKey.
+- If this computer has already used its free trial, RevampKey says so clearly, with an option to upgrade.
+
 ## [3.7.0] - 2026-11-12
 
 ### Added
