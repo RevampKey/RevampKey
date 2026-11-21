@@ -5,6 +5,17 @@ All notable changes to RevampKey will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.7.2] - 2026-11-21
+
+### Fixed
+- Long team chats keep what the run is for when they are summarized, so teams no longer drift off your goal.
+- A message you type to a team is done and reported, then the team waits; the rest of its queue runs only after you say go.
+- Teams use a saved browser script for the steps it covers, and fix and re-test a failing script before moving on.
+- Browser scripts no longer fail with "Page not found" when a new tab opens slowly, and that error is never blamed on the script.
+- Browser scripts that contain regular expressions now save instead of failing with an "Invalid \escape" error.
+- The chat box no longer disappears after switching away from a chat and back.
+- The Microsoft Store version now shows the update screen when an update is required.
+
 ## [3.7.1] - 2026-11-20
 
 ### Added
