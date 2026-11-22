@@ -5,6 +5,22 @@ All notable changes to RevampKey will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.7.3] - 2026-11-22
+
+### Changed
+- Teams pace Google, Bing and DuckDuckGo searches to at most 10 page loads every 15 minutes, then rest the site and pick the work up again by themselves, instead of running into a human check.
+- The agent can keep working through longer tasks before it stops to check in.
+
+### Fixed
+- Teams' browser scripts now get proven and saved reliably, and a failing script test shows the page it ended on, so it is fixed from the real page.
+- Browser scripts wait for page parts that are present but hidden, such as the first heading on Google results.
+- Links that go through a redirect are opened as given.
+- Long web pages are read on the live page instead of being copied into the chat, so long browsing tasks no longer stall.
+- A site works again as soon as you finish its human check.
+- Searches and other rows a team found are no longer lost when the team hands them over as follow-up work.
+- Closing a browser tab the agent opened no longer leaves a blank tab behind.
+- Page reads the agent runs in the browser now return the page's data instead of their own code.
+
 ## [3.7.2] - 2026-11-21
 
 ### Fixed
